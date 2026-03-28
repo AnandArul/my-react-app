@@ -1,0 +1,41 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h4{
+    margin: 5px 0;
+}
+.page-title {
+    /* margin-left: 10px; */
+    margin: 10px 50px;
+    font-size: 18pt;
+}
+.container {
+    display: flex;
+    margin: 10px 50px;
+    border: 1px solid #c9c9c9;
+    border-radius: 5px;
+    font-size: 12pt;
+    height: calc(100vh - 80px);
+    /* background: green; */
+}
+
+/* .column{
+    display: flex;
+} */
+
+.col-1{
+    /* background: green; */
+    position: inherit;
+    width: 35%;
+    padding: 10px 20px;
+    background: #f0f0f0;
+}
+
+.col-2{
+    /* background: red; */
+    width: 65%;
+    padding: 10px 20px;
+}
