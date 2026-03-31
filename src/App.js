@@ -2,6 +2,7 @@ import React, { useState } from "react";
 
 import TaskCard from "./TaskCard";
 import SaveTaskForm from "./SaveTaskForm";
+import FilterTask from "./FilterTask";
 
 const initialTasks = [
   {
@@ -271,7 +272,9 @@ const App = () => {
         </div>
         <div className="col-2">
           <h3>My Tasks</h3>
-          <div className="task-filters">Filters</div>
+          <div className="task-filters">
+            <FilterTask />
+          </div>
           <div className="task-list">
             {tasks.map((task, index) => (
               <TaskCard key={index} task={task} />

@@ -73,7 +73,9 @@ const SaveTaskForm = ({ onFormSubmit }) => {
           </select>
         </label>
         <br />
-        <button type="submit">Save Task</button>
+        <button type="submit" className="save-button">
+          Save Task
+        </button>
       </form>
     </>
   );
